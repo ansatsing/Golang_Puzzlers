@@ -5,6 +5,6 @@ import "fmt"
 var container = []string{"zero", "one", "two"}
 
 func main() {
-	container := map[int]string{0: "zero", 1: "one", 2: "two"}
+	container := map[int]string{0: "zero1", 1: "one1", 2: "two1"}
 	fmt.Printf("The element is %q.\n", container[1])
 }
